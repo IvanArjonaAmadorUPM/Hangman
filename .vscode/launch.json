@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Hangman",
+            "type": "python",
+            "request": "launch",
+            "program": "hangman.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
