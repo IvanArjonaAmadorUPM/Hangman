@@ -127,7 +127,7 @@ def game():
     while continuePlaying:
         startGame()
         NewWord=get_word()
-        secretWord="_"*len(NewWord)
+        secretWord="."*len(NewWord)
         WordToPlay=Word(NewWord,secretWord)
 
         WordToPlay.tried_letters.clear()
